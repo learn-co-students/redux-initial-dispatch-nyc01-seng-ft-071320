@@ -6,14 +6,14 @@ function changeState(state, action){
         return {count: state.count + 1}
       default:
         return state;
-    }
-  }
+    };
+  };
 
-  
 
 function dispatch(action){
     state = changeState(state, action)
     render()
+
 }
 
 function render(){
